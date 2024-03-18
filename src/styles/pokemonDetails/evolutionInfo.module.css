@@ -1,0 +1,28 @@
+.badgeContainer {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  background-color: #716b7b;
+  padding: 16px;
+  margin: 8px;
+}
+
+.badgeImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.evolutionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.evolutionInnerContainer {
+  gap: 32px;
+  margin: 8px;
+}
